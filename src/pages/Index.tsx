@@ -12,6 +12,7 @@ import { Footer } from "@/components/footer"
 import { FloatingCallButton } from "@/components/floating-call-button"
 import { AdvantagesSection } from "@/components/advantages-section"
 import { GazelleSection } from "@/components/gazelle-section"
+import { OrderForm } from "@/components/order-form"
 
 export default function Index() {
   return (
@@ -35,6 +36,7 @@ export default function Index() {
         <section id="faq">
           <FAQSection />
         </section>
+        <OrderForm />
         <CTASection />
       </main>
       <Footer />
