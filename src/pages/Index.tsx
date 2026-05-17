@@ -11,6 +11,7 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { FloatingCallButton } from "@/components/floating-call-button"
 import { AdvantagesSection } from "@/components/advantages-section"
+import { GazelleSection } from "@/components/gazelle-section"
 
 export default function Index() {
   return (
@@ -20,6 +21,7 @@ export default function Index() {
       <main>
         <Hero3D />
         <AdvantagesSection />
+        <GazelleSection />
         <FeaturesSection />
         <section id="technology">
           <TechnologySection />
