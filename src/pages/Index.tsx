@@ -10,6 +10,7 @@ import { CTASection } from "@/components/cta-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { FloatingCallButton } from "@/components/floating-call-button"
+import { AdvantagesSection } from "@/components/advantages-section"
 
 export default function Index() {
   return (
@@ -18,6 +19,7 @@ export default function Index() {
       <FloatingCallButton />
       <main>
         <Hero3D />
+        <AdvantagesSection />
         <FeaturesSection />
         <section id="technology">
           <TechnologySection />
