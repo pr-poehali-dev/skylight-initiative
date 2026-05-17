@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button"
 
+const PHONE = 'tel:+79595972694'
+
 export function CTASection() {
   return (
     <section className="py-24 px-6 bg-gradient-to-r from-orange-500/10 via-yellow-500/10 to-orange-500/10">
@@ -14,6 +16,7 @@ export function CTASection() {
             <Button
               size="lg"
               className="bg-orange-500 text-white hover:bg-orange-600 pulse-button text-lg px-8 py-4"
+              onClick={() => window.location.href = PHONE}
             >
               Заказать вывоз
             </Button>
@@ -21,6 +24,7 @@ export function CTASection() {
               size="lg"
               variant="outline"
               className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white text-lg px-8 py-4 bg-transparent"
+              onClick={() => window.location.href = PHONE}
             >
               Узнать стоимость
             </Button>
