@@ -18,6 +18,10 @@ export function Footer() {
                 <Phone size={16} />
                 <span className="font-space-mono text-sm">+7 959 597-26-94</span>
               </a>
+              <a href="tel:+79591491387" className="flex items-center gap-2 text-gray-400 hover:text-orange-500 transition-colors duration-200">
+                <Phone size={16} />
+                <span className="font-space-mono text-sm">+7 959 149-13-87</span>
+              </a>
               <a href="mailto:" className="flex items-center gap-2 text-gray-400 hover:text-orange-500 transition-colors duration-200">
                 <Mail size={16} />
                 <span className="font-space-mono text-sm">Написать на почту</span>

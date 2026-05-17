@@ -9,11 +9,13 @@ import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { FloatingCallButton } from "@/components/floating-call-button"
 
 export default function Index() {
   return (
     <div className="dark">
       <Navbar />
+      <FloatingCallButton />
       <main>
         <Hero3D />
         <FeaturesSection />
