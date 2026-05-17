@@ -31,7 +31,7 @@ export function GazelleSection() {
         {/* Заголовок */}
         <div className="text-center mb-14">
           <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/40 rounded-full px-4 py-1.5 mb-5">
-            <span className="text-orange-400 text-sm font-semibold">Газель от 150 грн</span>
+            <span className="text-orange-400 text-sm font-semibold">Газель от 1500 рублей</span>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 font-orbitron">
             Грузоперевозки в Луганске
